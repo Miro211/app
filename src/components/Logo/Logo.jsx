@@ -1,5 +1,5 @@
 import styles from'./Logo.module.css'
-import logo from '../../../assets/images.png'
+import logo from '../../assets/images.png'
 export default function Logo(){
     return (
     <div>

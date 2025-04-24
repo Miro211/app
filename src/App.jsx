@@ -4,12 +4,10 @@ import { useState } from 'react'
 // import {nav} from './db/db'
 import './App.css'
 import Header from './components/Header/Header'
-
-import './App.css'
 import Section from './components/Section/Section/Section'
-import { products } from './db/db'
+// import { products } from './db/db'
 
-function App() {
+function App({products}) {
 
   return (
     <>
