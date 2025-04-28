@@ -1,9 +1,10 @@
-import styles from'./Logo.module.css'
-import logo from '../../assets/images.png'
+import Style from './Logo.module.css'
+// import logo from '../../assets/logo.jpg'
+import logo from '../../assets/logo.svg'
 export default function Logo(){
-    return (
-    <div>
-        <img src={logo} alt="" className={styles.img}/>
-    </div>
+    return(
+        <div className={Style.Logo}>
+            <img src={logo} alt="logo"/>
+        </div>
     )
 }

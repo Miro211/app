@@ -2,5 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: 1200px; */
+    background-color: #005ACB;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }

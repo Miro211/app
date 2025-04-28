@@ -1,14 +1,13 @@
-import styles from './Header.module.css'
-import Logo from '../Logo/Logo'
-import Nav from '../Nav/Nav'
-import { nav } from '../../db/db'
-import Button from '../Button/Button'
-export default function Header() {
-    return (
-        <div className={styles.header}>
-            <Logo />
-            <Nav navigation={nav} />
-            <Button/>
+import Style from './Header.module.css'
+import Logo from '../Logo/Logo.jsx'
+import Nav from '../Nav/NavSearch.jsx'
+import Phone from '../Phone/Phone.jsx'
+export default function Header (){
+    return(
+        <div className={Style.header}>
+            <Logo/>
+            <Nav/>
+            <Phone/>
         </div>
     )
 }
